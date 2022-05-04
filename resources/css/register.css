@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(rgb(247, 214, 219), white ); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*==LOGO==*/
+#shop-logo{
+    display: flex;
+    justify-content: center;
+}
+#register{
+    display: flex;
+    justify-content: center;
+}
+
+#account{
+    display: flex;
+    padding: 35px;
+    width: 60%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0.4px #888888;
+}
+#account >p{
+    font-size: 13px;
+}
+#account > div{
+    width: 50%;
+}
+#account > div p, input, a{
+    margin: 5px;
+    font-weight: bold;
+}
+#account div .title{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+input{
+    height: 40px;
+    padding-left: 15px;
+    width: 90%;
+    outline: none;
+    margin-bottom: 25px;
+}
+#account b{
+    font-size: 14px;
+}
+
+.sign-up{
+    padding-left: 35px;
+}
+.sign-up input{
+    width: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #CC2121;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+a.btn:hover{
+    background-color: #a01f1f;
+}
+

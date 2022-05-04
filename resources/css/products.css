@@ -1,0 +1,100 @@
+#space{
+    height: 100px;
+}
+#content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+#title{
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#products-list{
+    display: grid;
+    grid-template-areas: 
+        "list products"
+    ;
+    grid-template-columns: 1fr 3.5fr;
+}
+/*
+    DANH MỤC SẢN PHẨM và SẢN PHẨM
+*/
+#list{
+    grid-area: list;
+}
+.category{
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.1);;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.category p{
+    color:white;
+    background-color: #CC2121;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.category ul li{
+    height: 45px;
+    font-weight: bold;
+}
+.category ul li a{
+    text-decoration: none;
+    color:#1C1C1C;
+    line-height: 45px;
+    font-size: 14px;
+    padding-left: 10px;
+    opacity: 0.8;
+}
+.category ul li:hover a{
+    color:#CC2121;
+}
+
+.product-sidebar{
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    padding: 5px;
+}
+.product-sidebar p{
+    color:white;
+    background-color: #CC2121;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.product-sidebar li{
+    height: 80px;
+    display: flex;
+}
+.product-sidebar li a{
+    text-decoration: none;
+    color:#1C1C1C;
+    opacity: 0.8;
+}
+.product-sidebar li:hover a{
+    color:#CC2121;
+    opacity: 1;
+}
+.product-sidebar li div{
+    padding-top: 20px;
+    line-height: 20px;
+}
+.product-sidebar li div i{
+    color: #CC2121;
+}
+.product-sidebar li div span{
+    font-size: 13px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.product-sidebar li a img{
+    height: 50px;
+    margin:15px;
+}
+#products{
+    grid-area: products;
+}
+#products img{
+    height: 200px;
+}

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css">
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="/resources/css/cart.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Water+Brush&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <title></title>
+    <title>Giỏ Hàng - FlowerShop</title>
 </head>
 <body>
     <div id="header">
@@ -31,7 +31,7 @@
                         <li><a href="/resources/html/products.html">Hoa Tựu Trường</a></li>
                     </ul>
                 </li>
-                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="/resources/html/news.html">TIN TỨC</a></li>
                 <li><a href="/resources/html/contact.html">LIÊN HỆ</a></li>
             </ul>
         <div id="others">
@@ -47,7 +47,62 @@
             </div>           
         </div>
     </div>
+    <div style="height:100px;"></div>
     <div id="content">
+        <div id="left-cart">
+            <table>
+                <tr>
+                    <th style="text-align: left;">SẢN PHẨM</th>
+                    <th>GIÁ</th>
+                    <th>SỐ LƯỢNG</th>
+                    <th>TỔNG</th>
+                </tr>
+                <tr>
+                    <td style="display: flex;">
+                        <a href="/resources/html/product-details.html" class="a-text"> <img style="height: 100px;" src="/resources/img/product-1.jpg" alt=""> </a>
+                        <div><a href="/resources/html/product-details.html" class="a-text"> Hyacinth white stick</a></div>
+                    </td>
+                    <td>250.000đ</td>
+                    <td style="padding-left: 40px;">1</td>
+                    <td>250.000đ</td>
+                </tr>
+            </table>
+            <div class="back-to-shop">
+                <a href="/resources/html/products.html">Quay về cửa hàng</a>
+            </div>
+        </div>
+        <hr>
+        <div id="right-cart">
+            <div class="cart-totals">
+                <table>
+                    <tr>
+                        <th>TỔNG CỘNG GIỎ HÀNG</th>
+                    </tr>
+                    <tr>
+                        <td>Tạm tính</td>
+                        <td>250.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Giao hàng</td>
+                        <td>Giao hàng miễn phí</td>
+                    </tr>
+                    <tr>
+                        <td>Tổng</td>
+                        <td>250.000đ</td>
+                    </tr>
+                </table>
+                <div>
+                    <a href="#">TIẾN HÀNH THANH TOÁN</a>
+                </div>
+            </div>
+            <div class="vouchers">
+                Phiếu ưu đãi
+                <hr>
+                <input type="text" placeholder="Nhập mã ưu đãi">
+                <br>
+                <input type="button" value="Áp dụng">
+            </div>
+        </div>
     </div>
     <hr>
     <div id="footer">
@@ -91,7 +146,7 @@
         </div>
     </div>
     <div class="copyright-footer">
-        Copy right&#169; 2033216361 - Dương Hoàng Chiến  and 2033216358 - Nguyễn Thị Kiên Bình
+        Copy right&#169; 2033216361 - Dương Hoàng Chiến  and 2033216357 - Nguyễn Thị Kiên Bình
     </div>
 </body>
 </html>

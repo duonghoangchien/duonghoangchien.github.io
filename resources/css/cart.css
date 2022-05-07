@@ -1,195 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-body{
-    scroll-behavior: smooth; 
-}
-ul, li{
-    list-style-type: none;
-}
-
-/*=========================================================
-                        HEADER
-===========================================================*/
-#header{
-    height: 70px;
-    width: 100%;
-    background-color: rgb(247, 214, 219);
+#content{
     display: flex;
     justify-content: space-between;
-    position:fixed;
-    box-shadow: 0px 0px 5px 0.4px #888888;
-    z-index:1;
+    margin: 50px 7%;
 }
+/*==LEFT-CART*/
 
-/*=====LOGO=====*/
-#logo{
-    width: 15%;
-    display: flex;
-    justify-content: center;
+#left-cart table tr td div{
+    margin:auto;
 }
-#logo a img{
-    height: 70px;
+#left-cart table tr td{
+    margin-right: 150px;
 }
-
-/*=====MENU=====*/
-#main-menu{
-    width: 50%;
+#left-cart table tr th{
+    padding-right: 70px;
 }
-#main-menu{
-    display: flex;
-    justify-content: space-around;
-}
-#main-menu li{
-    position: relative;
-}
-#main-menu >li >a{
+.a-text{
     text-decoration: none;
     color: black;
-    font-weight: bold;
-    opacity: 0.7;
-    line-height: 70px;
-    font-size: 13px;
+
 }
-#main-menu >li >a:hover{
+.a-text:hover{
     color: #CC2121;
-    opacity: 1;
 }
-#main-menu ul.sub-menu{
-    position: absolute;
-    background-color: rgb(247, 214, 219);
-    width: 200px;
-    left: -15px;
+.back-to-shop{
+    margin-top: 30px;
 }
-.sub-menu{
-    height: 200px;
-    display: none;
-}
-.sub-menu li{
-    height: 40px;
-    border-bottom: 1px solid white;
-}
-.sub-menu li:last-child{
-    border-bottom: none;
-}
-.sub-menu li a{
+.back-to-shop a{
     text-decoration: none;
-    opacity: 0.5;
-    line-height: 40px;
-    font-size: 14.4px;
-    padding-left: 15px;
-    color:black;
-}
-.sub-menu li:hover{
-    background-color: #f5f1f1;
-}
-#main-menu li:hover .sub-menu{
-    display: block;
-}
-
-/*=====OTHERS=====*/
-#others{
-    width: 35%;
-    display: flex;
-    justify-content:space-between;
-}
-
-#search-box{
-    height: 30px;
-    width: 60%;
-    margin: auto;
-    border-radius: 33px;
-    background-color:rgb(247, 214, 219);
-    transition: all 0.5s ease-in-out;
-}
-#search-text{
-    height: 30px;
-    border:none;
-    outline: none;
-    width: 0;
-    transition: all 0.5s ease-in-out;
-}
-#search-btn{
-    border: none;
-    padding: 7px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border-radius: 50%;
-    float: right;
-    background-color:rgb(247, 214, 219);
-}
-#search-box:hover{
-    background-color: white;
-}
-#search-box:hover #search-btn{
-    background-color: white;
-}
-#search-box:hover #search-text{
-    background-color:white;
-    width: 85%;
-    padding: 10px 5px 10px 15px;
-    border-radius: 33px;
-}
-.user{
-    margin: auto;
-    cursor: pointer;
-}
-.user:hover{
-    color: #CC2121;
-    font-size: 18px;
-}
-.cart{
-    margin: auto;
-    cursor: pointer;
-    width: 25%;
-}
-.cart:hover{
-    color: #cc2121;
-    font-size: 18px;
-}
-
-
-/*=========================================================
-                        CONTENT
-===========================================================*/
-
-/*=========================================================
-                        FOOTER
-===========================================================*/
-#footer{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-    z-index: 0;
-}
-#footer h3{
-    margin-bottom: 20px;
-}
-#footer img{
-    margin-top: 10px;
-}
-#footer div i{
-    margin-top: 10px;
-}
-#footer ul li{
-    margin-top: 10px;
-}
-#footer ul li:hover a{
     color:#CC2121;
+    font-weight: bold;
+    border: 2px solid #CC2121;
+    padding: 5px 20px;
 }
-#footer ul li a{
-    text-decoration: none;
-    color: black;
+.back-to-shop a:hover{
+    color:white;
+    background-color: #CC2121;
 }
-.copyright-footer{
-    text-align:center;
+
+/*==RIGHT-CART*/
+.cart-totals tr th{
+    padding-bottom: 20px;
+}
+.cart-totals tr td{
+    padding: 5px 0px;
+}
+.cart-totals div{
     height: 50px;
-    line-height: 50px;
-    font-size: 14.4px;
-    background-color:#E1E1E1;
-    color: #555555;
-    margin-top: 80px;
+    margin-top: 30px;
+}
+.cart-totals div a{
+    text-decoration: none;
+    color: white;
+    background-color:black;
+    font-weight: bold;
+    padding: 10px 70px;
+}
+.cart-totals div:hover a{
+    background-color: #CC2121;
+}
+.vouchers input{
+    height: 35px;
+    padding-left: 15px;
+    width: 335px;
+    margin-top: 20px;
+    outline: none;
 }

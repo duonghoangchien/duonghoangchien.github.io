@@ -1,10 +1,7 @@
-body{
-    background: linear-gradient(rgb(252, 239, 240), white ); 
-    background-repeat: no-repeat;
+#content{
+    background-image: url(/resources/img/flower-banner.jpg);
+    height: 600px;
     background-size: cover;
-}
-#space{
-    height: 100px;
 }
 #shop-introduce{
     text-align: center;
@@ -12,6 +9,7 @@ body{
 .p1{
     font-size: 25px;
     font-weight: bold;
+    padding-top: 15px;
 }
 .p2{
     font-size: 20px;
@@ -26,6 +24,7 @@ body{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 0.4px #888888;
+    background-color:white ;
 }
 #founder-introduce div a img{
     height: 250px;

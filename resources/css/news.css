@@ -1,0 +1,14 @@
+#content{
+    margin: 0 5%;
+    height: 200px;
+}
+#content p{
+    font-size: 25px;
+    margin-top: 5%;
+}
+#content a{
+    color:black;
+}
+#content a:hover{
+    color: #CC2121;
+}
